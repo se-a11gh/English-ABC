@@ -1,6 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
-<head> 
+<head>
     <meta charset="UTF-8">
     <link rel="shortcut icon" href="media/sign_eng.ico" type="image/x-icon"> 
     <meta name="viewport" content="width=device-width"> 
