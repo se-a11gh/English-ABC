@@ -1,635 +1,627 @@
 @media(max-width:1200px){
-.card_promo {
-    width: 270px;
-    height: 400px;
-    font-size: 18px;
-}
-.promo_down div:nth-child(2) {
-    width: 290px;
-    height: 420px;
-}
-.card_promo:hover{
-    width: 290px;
-    height: 410px;
-}
-.card_promo p {
-    font-size: 23px;
-}
-.bl_price p {
-    font-size: 27px;
-}
-
-}
-
-
-
-
-@media(max-width:1150px){
-.l_1, .l_2, .l_3 {
-    background-size: 140% auto;
-}
-.main_block_text {
-    width: 45%;
-    height: 350px;
-    padding: 25px;
-}
-.main_block_text h1 {
-    font-size: 30px;
-}
-.text_content p {
-    margin-top: 10px;
-    line-height: 34px;
-    font-size: calc(var(--index) * 1);
-}
-.text_content {
-    width: 100%;
-    height: 250px;
-}
-.main_block_form {
-    width: 40%;
-}
-}
-
-
-
-@media(max-width:1075px){
-.l_1, .l_2, .l_3 {
-    background-size: 150% auto;
-}
-.t_djo img {
-    width: 135%;
-    border-radius: 10px;
-}
-.Block_2 {
-    height: 600px;
-}
-.Block_2_Content {
-    height: 570px;
-    width: 95%;
-}
-.promo_down {
-    width: 100%;
-}
-.card_promo {
-    width: 250px;
-    height: 375px;
-    font-size: 16px;
-}
-.promo_down div:nth-child(2) {
-    width: 275px;
-    height: 395px;
-}
-.card_promo:hover{
-    width: 275px;
-    height: 395px;
-}
-.card_promo p {
-    font-size: 21px;
-}
-.bl_price p {
-    font-size: 25px;
-}
-}
-
-
-
-@media(max-width:1000px){
-.lesson, .lesson_fon {
-    height: 400px;
-}
-.lesson_fon p {
-    width: 350px;
-    height: 350px;
-    font-size: calc(var(--index) * 1.2);
-    padding: 135px 5%;
-}
-.footer_contacts{
-    width: 35%;
-}
-.footer_menu, .footer_registr {
-    width: 25%;
-}
-}
-
-
-
-@media(max-width:950px){
-.footer_contacts {
-    display: flex;
-    justify-content: space-evenly;
-    width: 100%;
-    height: 250px;
-    order: 1;
-}
-.footer_menu, .footer_registr {
-    height: 210px;
-    order: 2;
-}
-.footer_downPanel {
-    order: 3;
-}
-.feed_1 img {
-    width: 135px;
-    height: 135px;
-}
-.feed_1 p {
-    font-size: 19px;
-}   
-.feed_1 {
-    height: 335px;
-    padding: 10px;
-}
-.teacher_block, .Block_1_Content {
-    width: 95%;
-}
-.contacts2_head, .contacts_head{
-    display: none;
-}
-.block_form input {
-    height: 30px;
-    margin-top: 20px;
-}
-.block_form .btnEng__form {
-    font-size: 20px;
-}
-.main_block_form {
-    height: 525px;
-}
-.block_form {
-    height: 470px;
-}
-}
-
-
-@media(max-width:900px){
-.lesson, .lesson_fon {
-    height: 350px;
-}
-.lesson_fon p {
-    width: 300px;
-    height: 300px;
-    padding: 115px 5%;
-}
-.Block_2_Content {
-    width: 100%;
-    border-radius: 0px;
-}
-h3 {
-    font-size: calc(var(--index) * 2.2);
-}
-.promo_up {
-    font-size: calc(var(--index) * 1.4);
-}
-.promo_up p span {
-    font-size: calc(var(--index) * 1.6);
-}
-.card_promo {
-    width: 240px;
-    height: 360px;
-}
-.bl_price p {
-    font-size: 24px;
-}
-}
-
-
-
-@media(max-width:850px){
-.Block_3 {
-    height: 1200px;
-}
-.teacher_like, .teacher_info, .teacher_foto {
-    height: 350px;
-}
-.teacher_like img {
-    width: 85px;
-    height: 85px;
-}
-.like_heart img {
-    width: 25px;
-    height: 25px;
-}
-.card_promo:hover{
-    width: 240px;
-    height: 360px;
-}
-#Main_eng {
-    height: 1000px;
-}
-.main_photo_fon {
-    display: none;
-}
-.main_photo_fonDOP{
-    display: block;
-    height: 880px;
-}
-.main_wrap_content {
-    margin-top: -100px;
-    height: 630px;
-    flex-direction: column;
-}
-.text_content p {
-    margin-top: 10px;
-    line-height: 25px;
-    font-size: calc(var(--index) * 1.3);
-    color: white;
-}
-.text_content {
-    height: 200px;
-}
-.main_block_text {
-    width: 85%;
-    height: 350px;
-    padding: 0px;
-    background: rgba(255, 255, 255, 0);
-    box-shadow: 0px 0px 0px;
-}
-.main_block_form {
-    width: 85%;
-    padding: 20px;
-    box-sizing: border-box;
-}
-.img_ben {
-    margin-top: 9px;
-}
-}
-
-
-
-@media(max-width:800px){
-.l_1, .l_2, .l_3 {
-    background-size: 160% auto;
-}
-.Block_2 {
-    height: 1150px;
-}
-.Block_2_Content {
-    height: 1050px;
-}
-.promo_down {
-    flex-direction: column;
-    align-items: center;
-    height: 900px;
-}
-.promo_down div:nth-child(2) {
-    width: 430px;
-    height: 280px;
-}
-.card_promo, .card_promo:hover {
-    width: 430px;
-    height: 280px;
-}
-.card_promo ul li {
-    line-height: 20px;
-}
-}
-
-
-
-@media(max-width:750px){
-.Block_1 {
-    height: 650px;
-}
-.block_advant {
-    font-size: 18px;
-    height: 175px;
-}
-.advant_numb {
-    width: 90px;
-    height: 90px;
-    padding-top: 20px;
-}
-.Block_4 {
-    height: 410px;
-}
-.lessons_block_DOP{
-    display: block;
-}
-.h5_bl_4, .lessons_block{
-    display: none;
-}
-}
-
-
-@media(max-width:700px){
-.Block_5, .block_feedback {
-    position: static;
-    height: auto;
-    flex-direction: column;
-}
-.feed_1 {
-    width: 37%;
-    margin: 10px 0px 10px 0px;
-}
-.btnEng__feed {
-    width: 95%;
-}
-.block_feedback div:nth-child(4), .block_feedback div:nth-child(5), .block_feedback div:nth-child(6), .btn_slider_group, .blockMap {
-    display: none;
-}
-.btnEng__feed {
-    margin-bottom: 10px;
-}
-.footer_menu, .footer_registr {
-    width: 40%;
-}
-.footer_contacts {
-    height: 150px;
-    justify-content: flex-start;
-    padding-left: 30px;
-    box-sizing: border-box;
-}
-.block_footrSoc{
-   display: flex;
-}
-.block_footrSoc img{
-    width: 25px;
-    height: 25px;
-    margin-left: 5px;
-}
-.footer_downPanel {
-    height: 75px;
-    flex-direction: column;
-    font-size: 14px;
-}
-}
-
-
-@media(max-width:650px){
-.Block_3 {
-    height: 410px;
-}
-.teacher_block_DOP{
-    display: block;
-}
-.h4_bl_3, .teacher_block, .btn_slider_group{
-    display: none;
-}
-.popUP_numberCall_block{
-    width: 400px;
-    height: 200px;
-}
-}
-
-
-@media(max-width:600px){
-.logo_head p{
-    font-size: 20px;
-}
-.aside_menu_content {
-    width: 100%;
-    height: 100%;
-}
-.bl_aside_soc{
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
-    position: static;
-    width: 100%;
-    height: 190px;
-    margin-top: 15px;
-    padding: 10px;
-    box-sizing: border-box;
-}
-.block_aside_menu {
-    width: 100%;
-}
-.head_aside_menu {
-    justify-content: space-between;
-    padding: 25px;
-}
-.bl_aside_soc_text{
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
-    width: 450px;
-    padding: 0;
-}
-.bl_aside_soc_img  {
-    height: 125px;
-    border: none;
-    padding: 10px;
-    box-sizing: border-box;
-    border-left: 2px solid var(--colr_B);
-}
-.bl_aside_soc_img img {
-    width: 25px;
-    height: 25px;
-    margin-top: 10px;
-    cursor: pointer;
-}
-.signIN_form {
-    width: 380px;
-    height: 500px;
-}
-.btnClose_popUP_signIN {
-    margin-left: 50px;
-}
-}
-
-
-@media(max-width:550px){
-.Block_1 {
-    height: 600px;
-}
-.block_advant {
-    font-size: 15px;
-    height: 134px;
-    box-sizing: border-box;
-    padding: 25px;
-}
-.advant_numb {
-    width: 60px;
-    height: 60px;
-    padding-top: 10px;
-    font-size: 30px;
-}
-.phone_site {
-    width: 45px;
-    height: 45px;
-}
-.footer_menu, .footer_registr {
-    width: 100%;
-    padding: 5px;
-    padding-left: 30px;
-    box-sizing: border-box;
-    border-top: 1px solid white;
-}
-}
-
-
-
-
-/*============================================= Mobile ===========================================================*/
-
-@media(max-width:470px){
-.logo_head p {
-    font-size: 18px;
-}
-.btn_sign {
-    width: 85px;
-}
-.block_form p {
-    font-size: calc(var(--index) * 1.7);
-}
-.block_form .btnEng__form {
-    height: 50px;
-}
-.img_ben {
-    width: 120px;
-    height: auto;
-}
-.block_form {
-    height: 395px;
-}
-h2, h3, h4, h5, h6 {
-    font-size: 19px;
-    width: 95%;
-}
-.block_advant {
-    font-size: 14px;
-}
-.signIN_form_body {
-    margin-top: 0px;
-}
-.signIN_form {
-    height: 445px;
-}
-.main_block_form {
-    width: 95%;
-    padding: 0px;
-height: 445px;
-}
-.block_form input {
-    height: 45px;
-    margin-top: 12px;
-}
-#Main_eng {
-    height: 830px;
-}
-.main_block_text h1 {
-    font-size: 28px;
-}
-.text_content p {
-    margin-top: 5px;
-    line-height: 23px;
-    font-size:15px;
-}
-.main_block_text {
-    width: 95%;
-    height: auto;
-}
-.main_wrap_content {
-    margin-top: 50px;
-   height: auto;
-}
-.promo_up p span {
-    font-size: calc(var(--index) * 1.3);
-}
-.promo_up {
-    font-size: calc(var(--index) * 1.4);
-     height: 80px;
-}
-
-
-.popUP_numberCall_block_body input {
-    height: 35px;
-    margin-top: 8px;
-    font-size: 16px;
-}
-.btnClose_popUP_numberCall{
-    width: 25px;
-    height: 25px;
-}
-
-.popUP_numberCall_block {
-    width: 330px;
-    height: 160px;
-}
-
-.popUP_numberCall_block_head {
-    width: 100%;
-    padding: 8px;
-    font-size: 17px;
-}
-.btnEng__call {
-    font-size: 17px;
-}
-
-}
-
-
-@media(max-width:450px){
-.promo_down div:nth-child(2), .card_promo, .card_promo:hover {
-    width: 95%;
-}
-.phone_site {
-    top: 660px;
-}
-
-}
-
-
-@media(max-width:450px) and (max-height:700px){
-    .phone_site {
-        top: 500px;
+    .card_promo {
+        width: 270px;
+        height: 400px;
+        font-size: 18px;
     }
- }
-
-
-
-
-
-
-
-
-
-
-@media(max-width:410px){
-.block_footrSoc {
-    flex-direction: column;
-}
-.logo_head p {
-    font-size: 16px;
-}
-.btn_sign {
-    width: 75px;
-}
-.img_ic__menu {
-    width: 25px;
-    height: 15px;
-}
-.main_block_text h1 {
-    font-size: 25px;
-}
-
-.text_content p {
-    line-height: 20px;
-    font-size: 13px;
-}
-
-
-.main_block_text {
-    width: 85%;
-}
-
-
-.head_aside_menu p {
-    font-size: 19px;
-}
-
-.head_aside_menu img, .signIN_form img {
-    width: 25px;
-    height: 25px;
-}
-
-.aside_menu_content ul li {
-    margin-top: 10px;
-
-}
-
-}
-
-
-
-
+    .promo_down div:nth-child(2) {
+        width: 290px;
+        height: 420px;
+    }
+    .card_promo:hover{
+        width: 290px;
+        height: 410px;
+    }
+    .card_promo p {
+        font-size: 23px;
+    }
+    .bl_price p {
+        font-size: 27px;
+    }
+    
+    }
+    
+    
+    
+    
+    @media(max-width:1150px){
+    .main_block_text {
+        width: 45%;
+        height: 350px;
+        padding: 25px;
+    }
+    .main_block_text h1 {
+        font-size: 30px;
+    }
+    .text_content p {
+        margin-top: 10px;
+        line-height: 34px;
+        font-size: calc(var(--index) * 1);
+    }
+    .text_content {
+        width: 100%;
+        height: 250px;
+    }
+    .main_block_form {
+        width: 40%;
+    }
+    }
+    
+    
+    
+    @media(max-width:1075px){
+    .t_djo img {
+        width: 135%;
+        border-radius: 10px;
+    }
+    .Block_2 {
+        height: 600px;
+    }
+    .Block_2_Content {
+        height: 570px;
+        width: 95%;
+    }
+    .promo_down {
+        width: 100%;
+    }
+    .card_promo {
+        width: 250px;
+        height: 375px;
+        font-size: 16px;
+    }
+    .promo_down div:nth-child(2) {
+        width: 275px;
+        height: 395px;
+    }
+    .card_promo:hover{
+        width: 275px;
+        height: 395px;
+    }
+    .card_promo p {
+        font-size: 21px;
+    }
+    .bl_price p {
+        font-size: 25px;
+    }
+    }
+    
+    
+    
+    @media(max-width:1000px){
+    .lesson, .lesson_fon {
+        height: 400px;
+    }
+    .lesson_fon p {
+        width: 350px;
+        height: 350px;
+        font-size: calc(var(--index) * 1.2);
+        padding: 135px 5%;
+    }
+    .footer_contacts{
+        width: 35%;
+    }
+    .footer_menu, .footer_registr {
+        width: 25%;
+    }
+    }
+    
+    
+    
+    @media(max-width:950px){
+    .footer_contacts {
+        display: flex;
+        justify-content: space-evenly;
+        width: 100%;
+        height: 250px;
+        order: 1;
+    }
+    .footer_menu, .footer_registr {
+        height: 210px;
+        order: 2;
+    }
+    .footer_downPanel {
+        order: 3;
+    }
+    .feed_1 img {
+        width: 135px;
+        height: 135px;
+    }
+    .feed_1 p {
+        font-size: 19px;
+    }   
+    .feed_1 {
+        height: 335px;
+        padding: 10px;
+    }
+    .teacher_block, .Block_1_Content {
+        width: 95%;
+    }
+    .contacts2_head, .contacts_head{
+        display: none;
+    }
+    .block_form input {
+        height: 30px;
+        margin-top: 20px;
+    }
+    .block_form .btnEng__form {
+        font-size: 20px;
+    }
+    .main_block_form {
+        height: 525px;
+    }
+    .block_form {
+        height: 470px;
+    }
+    }
+    
+    
+    @media(max-width:900px){
+    .lesson, .lesson_fon {
+        height: 350px;
+    }
+    .lesson_fon p {
+        width: 300px;
+        height: 300px;
+        padding: 115px 5%;
+    }
+    .Block_2_Content {
+        width: 100%;
+        border-radius: 0px;
+    }
+    h3 {
+        font-size: calc(var(--index) * 2.2);
+    }
+    .promo_up {
+        font-size: calc(var(--index) * 1.4);
+    }
+    .promo_up p span {
+        font-size: calc(var(--index) * 1.6);
+    }
+    .card_promo {
+        width: 240px;
+        height: 360px;
+    }
+    .bl_price p {
+        font-size: 24px;
+    }
+    }
+    
+    
+    
+    @media(max-width:850px){
+    .Block_3 {
+        height: 1200px;
+    }
+    .teacher_like, .teacher_info, .teacher_foto {
+        height: 350px;
+    }
+    .teacher_like img {
+        width: 85px;
+        height: 85px;
+    }
+    .like_heart img {
+        width: 25px;
+        height: 25px;
+    }
+    .card_promo:hover{
+        width: 240px;
+        height: 360px;
+    }
+    #Main_eng {
+        height: 1000px;
+    }
+    .main_photo_fon {
+        display: none;
+    }
+    .main_photo_fonDOP{
+        display: block;
+        height: 880px;
+    }
+    .main_wrap_content {
+        margin-top: -100px;
+        height: 630px;
+        flex-direction: column;
+    }
+    .text_content p {
+        margin-top: 10px;
+        line-height: 25px;
+        font-size: calc(var(--index) * 1.3);
+        color: white;
+    }
+    .text_content {
+        height: 200px;
+    }
+    .main_block_text {
+        width: 85%;
+        height: 350px;
+        padding: 0px;
+        background: rgba(255, 255, 255, 0);
+        box-shadow: 0px 0px 0px;
+    }
+    .main_block_form {
+        width: 85%;
+        padding: 20px;
+        box-sizing: border-box;
+    }
+    .img_ben {
+        margin-top: 9px;
+    }
+    }
+    
+    
+    
+    @media(max-width:800px){
+    .Block_2 {
+        height: 1150px;
+    }
+    .Block_2_Content {
+        height: 1050px;
+    }
+    .promo_down {
+        flex-direction: column;
+        align-items: center;
+        height: 900px;
+    }
+    .promo_down div:nth-child(2) {
+        width: 430px;
+        height: 280px;
+    }
+    .card_promo, .card_promo:hover {
+        width: 430px;
+        height: 280px;
+    }
+    .card_promo ul li {
+        line-height: 20px;
+    }
+    }
+    
+    
+    
+    @media(max-width:750px){
+    .Block_1 {
+        height: 650px;
+    }
+    .block_advant {
+        font-size: 18px;
+        height: 175px;
+    }
+    .advant_numb {
+        width: 90px;
+        height: 90px;
+        padding-top: 20px;
+    }
+    .Block_4 {
+        height: 410px;
+    }
+    .lessons_block_DOP{
+        display: block;
+    }
+    .h5_bl_4, .lessons_block{
+        display: none;
+    }
+    }
+    
+    
+    @media(max-width:700px){
+    .Block_5, .block_feedback {
+        position: static;
+        height: auto;
+        flex-direction: column;
+    }
+    .feed_1 {
+        width: 37%;
+        margin: 10px 0px 10px 0px;
+    }
+    .btnEng__feed {
+        width: 95%;
+    }
+    .block_feedback div:nth-child(4), .block_feedback div:nth-child(5), .block_feedback div:nth-child(6), .btn_slider_group, .blockMap {
+        display: none;
+    }
+    .btnEng__feed {
+        margin-bottom: 10px;
+    }
+    .footer_menu, .footer_registr {
+        width: 40%;
+    }
+    .footer_contacts {
+        height: 150px;
+        justify-content: flex-start;
+        padding-left: 30px;
+        box-sizing: border-box;
+    }
+    .block_footrSoc{
+       display: flex;
+    }
+    .block_footrSoc img{
+        width: 25px;
+        height: 25px;
+        margin-left: 5px;
+    }
+    .footer_downPanel {
+        height: 75px;
+        flex-direction: column;
+        font-size: 14px;
+    }
+    }
+    
+    
+    @media(max-width:650px){
+    .Block_3 {
+        height: 410px;
+    }
+    .teacher_block_DOP{
+        display: block;
+    }
+    .h4_bl_3, .teacher_block, .btn_slider_group{
+        display: none;
+    }
+    .popUP_numberCall_block{
+        width: 400px;
+        height: 200px;
+    }
+    }
+    
+    
+    @media(max-width:600px){
+    .logo_head p{
+        font-size: 20px;
+    }
+    .aside_menu_content {
+        width: 100%;
+        height: 100%;
+    }
+    .bl_aside_soc{
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        position: static;
+        width: 100%;
+        height: 190px;
+        margin-top: 15px;
+        padding: 10px;
+        box-sizing: border-box;
+    }
+    .block_aside_menu {
+        width: 100%;
+    }
+    .head_aside_menu {
+        justify-content: space-between;
+        padding: 25px;
+    }
+    .bl_aside_soc_text{
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        width: 450px;
+        padding: 0;
+    }
+    .bl_aside_soc_img  {
+        height: 125px;
+        border: none;
+        padding: 10px;
+        box-sizing: border-box;
+        border-left: 2px solid var(--colr_B);
+    }
+    .bl_aside_soc_img img {
+        width: 25px;
+        height: 25px;
+        margin-top: 10px;
+        cursor: pointer;
+    }
+    .signIN_form {
+        width: 380px;
+        height: 500px;
+    }
+    .btnClose_popUP_signIN {
+        margin-left: 50px;
+    }
+    }
+    
+    
+    @media(max-width:550px){
+    .Block_1 {
+        height: 600px;
+    }
+    .block_advant {
+        font-size: 15px;
+        height: 134px;
+        box-sizing: border-box;
+        padding: 25px;
+    }
+    .advant_numb {
+        width: 60px;
+        height: 60px;
+        padding-top: 10px;
+        font-size: 30px;
+    }
+    .phone_site {
+        width: 45px;
+        height: 45px;
+    }
+    .footer_menu, .footer_registr {
+        width: 100%;
+        padding: 5px;
+        padding-left: 30px;
+        box-sizing: border-box;
+        border-top: 1px solid white;
+    }
+    }
+    
+    
+    
+    
+    /*============================================= Mobile ===========================================================*/
+    
+    @media(max-width:470px){
+    .logo_head p {
+        font-size: 18px;
+    }
+    .btn_sign {
+        width: 85px;
+    }
+    .block_form p {
+        font-size: calc(var(--index) * 1.7);
+    }
+    .block_form .btnEng__form {
+        height: 50px;
+    }
+    .img_ben {
+        width: 120px;
+        height: auto;
+    }
+    .block_form {
+        height: 395px;
+    }
+    h2, h3, h4, h5, h6 {
+        font-size: 19px;
+        width: 95%;
+    }
+    .block_advant {
+        font-size: 14px;
+    }
+    .signIN_form_body {
+        margin-top: 0px;
+    }
+    .signIN_form {
+        height: 445px;
+    }
+    .main_block_form {
+        width: 95%;
+        padding: 0px;
+    height: 445px;
+    }
+    .block_form input {
+        height: 45px;
+        margin-top: 12px;
+    }
+    #Main_eng {
+        height: 830px;
+    }
+    .main_block_text h1 {
+        font-size: 28px;
+    }
+    .text_content p {
+        margin-top: 5px;
+        line-height: 23px;
+        font-size:15px;
+    }
+    .main_block_text {
+        width: 95%;
+        height: auto;
+    }
+    .main_wrap_content {
+        margin-top: 50px;
+       height: auto;
+    }
+    .promo_up p span {
+        font-size: calc(var(--index) * 1.3);
+    }
+    .promo_up {
+        font-size: calc(var(--index) * 1.4);
+         height: 80px;
+    }
+    
+    
+    .popUP_numberCall_block_body input {
+        height: 35px;
+        margin-top: 8px;
+        font-size: 16px;
+    }
+    .btnClose_popUP_numberCall{
+        width: 25px;
+        height: 25px;
+    }
+    
+    .popUP_numberCall_block {
+        width: 330px;
+        height: 160px;
+    }
+    
+    .popUP_numberCall_block_head {
+        width: 100%;
+        padding: 8px;
+        font-size: 17px;
+    }
+    .btnEng__call {
+        font-size: 17px;
+    }
+    
+    }
+    
+    
+    @media(max-width:450px){
+    .promo_down div:nth-child(2), .card_promo, .card_promo:hover {
+        width: 95%;
+    }
+    .phone_site {
+        top: 660px;
+    }
+    
+    }
+    
+    
+    @media(max-width:450px) and (max-height:700px){
+        .phone_site {
+            top: 500px;
+        }
+     }
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    @media(max-width:410px){
+    .block_footrSoc {
+        flex-direction: column;
+    }
+    .logo_head p {
+        font-size: 16px;
+    }
+    .btn_sign {
+        width: 75px;
+    }
+    .img_ic__menu {
+        width: 25px;
+        height: 15px;
+    }
+    .main_block_text h1 {
+        font-size: 25px;
+    }
+    
+    .text_content p {
+        line-height: 20px;
+        font-size: 13px;
+    }
+    
+    
+    .main_block_text {
+        width: 85%;
+    }
+    
+    
+    .head_aside_menu p {
+        font-size: 19px;
+    }
+    
+    .head_aside_menu img, .signIN_form img {
+        width: 25px;
+        height: 25px;
+    }
+    
+    .aside_menu_content ul li {
+        margin-top: 10px;
+    
+    }
+    
+    }
+    
+    
+    
+    
+    

@@ -9,9 +9,10 @@
     <title>ABC-school</title>
 </head>
 <body>
-<?php require('../Site_7/return.php');?>
+    <?php require('../Site_7/return.php');?>
 
 <img class="phone_site" src="media/phone.png" alt="">
+
 
 <aside id="aside_menu">           
 
@@ -22,11 +23,11 @@
         <img class="btn_nav_close" src="media/wClose.png" alt="">
     </div>
     <ul class="asise_list">
-        <a href=""><li>Цены</li></a>
-        <a href=""><li>Программа обучения</li></a>
-        <a href=""><li>Наши учителя</li></a>
-        <a href=""><li>Книги</li></a>
-        <a href=""><li>Про школу</li></a>
+        <li><a href="">Цены</a></li>
+        <li><a href="">Программа обучения</a></li>
+        <li><a href="">Наши учителя</a></li>
+        <li><a href="">Книги</a></li>
+        <li><a href="">Про школу</a></li>
     </ul>
     <div class="bl_aside_soc">
         <div class="bl_aside_soc_text">
@@ -54,20 +55,19 @@
 
 </aside>
 
-
 <!--------------------------------------------------------------->
 <div class="popUP_signIN">  
     <div class="signIN_form">
         <div class="signIN_form_head">
-            <p>Увійти у <span name="inroom">English-School</span> </p>
+            <p>Увійти у <span class="inroom">English-School</span> </p>
             <img class="btnClose_popUP_signIN" src="media/wClose.png" alt="">
         </div>
 
-        <form  class="signIN_form_body" action="" method="post">
-            <input type="text" name="" id="" placeholder="Логін" ><br/>
-            <input type="password" name="" id="" placeholder="Пароль"><br/><br/>
+        <form  class="signIN_form_body" action="#" method="post">
+            <input type="text" name="log" placeholder="Логін" ><br/>
+            <input type="password" name="pass" placeholder="Пароль"><br/>
             <p>Забули пароль?</p><br/>
-            <input class="btnEng btnEng__form" type="submit" name="" value="Увійти"><br/><br/>
+            <input class="btnEng btnEng__form" type="submit" name="btn_signIn" value="Увійти"><br/>
             <p>Створити обліковий запис</p>
         </form>
     </div>
@@ -108,34 +108,33 @@
 
 
 
-
 <main id="Main_eng">
     <img class="main_photo_fon" src="media/fonMain.jpg" alt="">
     <img class="main_photo_fonDOP" src="media/fonMainDOP.png" alt="">
 
 
-    
+
     <div class="main_wrap_content flx_row_ar">
         <div class="main_block_text">
             <div class="text_content">
                 <h1> Welcome to English-School </h1>
                 <p>
                Ми вважаємо, що вивчати англійську мову потрібно в
-                    <span name="r">цікавою</span> та невимушеною манерою.
+                    <span class="color_r">цікавою</span> та невимушеною манерою.
                     Дітям у нас подобається, бо навчання
-                    проходить <span name="r">ефективно</span>, весело та комфортно. <br>
-                    <span name="r">Із задоволенням</span> запрошуємо вас і ваших дітей зануритися<br>
+                    проходить <span class="color_r">ефективно</span>, весело та комфортно. <br>
+                    <span class="color_r">Із задоволенням</span> запрошуємо вас і ваших дітей зануритися<br>
                      у світ англійської мови у нашій школі.
                 </p>
             </div>
         </div>
         <div class="main_block_form">
-            <form class="block_form" action="" method="post">
-           <p> Записуйтесь на <span name="r">безкоштовний</span> урок </p>
-                <input type="text" name="" id="" placeholder="Ім'я дитини"><br>
-                <input type="text" name="" id="" placeholder="Вік"><br>
-                <input type="password" name="" id="" placeholder="+380ХХХХХХХХХ"><br>
-                <input class="btnEng btnEng__form" type="submit" name="" value="Записатися">
+            <form class="block_form" action="#" method="post">
+           <p> Записуйтесь на <span class="color_r">безкоштовний</span> урок </p>
+                <input type="text" name="nameCh"  placeholder="Ім'я дитини"><br>
+                <input type="text" name="age" placeholder="Вік"><br>
+                <input type="password" name="phone" placeholder="+380ХХХХХХХХХ"><br>
+                <input class="btnEng btnEng__form" type="submit" name="btn_send" value="Записатися">
                 <img class="img_ben" src="media/ben.png" alt="">
             </form>
         </div>
@@ -221,8 +220,8 @@
     <li>- 15 занять</li>
    </ul>
    <div class="bl_price">
-    <p name="old_price">3600₴</p>
-    <p name="new_price">1800₴</p>
+    <p class="old_price">3600₴</p>
+    <p class="new_price">1800₴</p>
     <button type="button" class="btnEng btnEng__promo btnEng__promo_new"> Записатися </button>
    </div>
 </div>
@@ -230,7 +229,7 @@
 <div class="card_promo">
     <p>Пакет "Premium"</p>
    <ul>
-    <li>-Уроки проводитимуть носії мови</li>
+    <li>- Уроки проводитимуть носії мови</li>
     <li>- Пояснення основ мови</li>
     <li>- Пояснення матеріалу</li>
     <li>- Домашні завдання</li>
@@ -370,10 +369,9 @@
              </p>
         </div>
     </div>
-    <div class="lesson l_4">
-        <iframe width="100%" height="100%" src="https://www.youtube.com/embed/NvW8EnyBUvQ" title="Степени сравнения прилагательных | Английский для начинающих" frameborder="0" 
-        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
-    </div>
+<div class="lesson l_4">
+<iframe width="100%" height="100%" src="https://www.youtube.com/embed/NvW8EnyBUvQ" title="Степени сравнения прилагательных | Английский для начинающих" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+</div>
 </div>
 
 
@@ -471,7 +469,8 @@
     
 <footer id="Footer_eng">
     <div class="footer_list footer_contacts">
-        <ul>Контакти
+        <p>Контакти</p>
+        <ul>
             <li>0958253667</li>
             <li>0800-505-36-15</li>
             <li>Київ, ул. Перемоги 27, 2-поверх, офіс 5</li>
@@ -482,14 +481,15 @@
     <img src="media/card4.png" alt="">
 </div>
 
-        <div class="blockMap">
-            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d30277.8823601496!2d30.386488939165286!3d50.45371898288515!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x40d4cc1ea2cba133%3A0xd69cacdd52f42944!2sEmpire%20English%20School!5e0!3m2!1sru!2sua!4v1687201849147!5m2!1sru!2sua" width="350" height="230" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
-        </div>
+<div class="blockMap">
+<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d30277.8823601496!2d30.386488939165286!3d50.45371898288515!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x40d4cc1ea2cba133%3A0xd69cacdd52f42944!2sEmpire%20English%20School!5e0!3m2!1sru!2sua!4v1687201849147!5m2!1sru!2sua" width="350" height="auto" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+</div>
     </div>
   
     
 <div class="footer_list footer_menu">
-    <ul>Меню
+    <p>Меню</p>
+    <ul>
         <li>Акції</li>
         <li>Ціни</li>
         <li>Наші вчителі</li>
@@ -499,7 +499,8 @@
 </div>
 
 <div class="footer_list footer_registr">
-<ul>Особисті дані
+    <p>Особисті дані</p>
+<ul>
     <li>Вхід до кабінету</li>
     <li>Реєстрація</li>
 </ul>

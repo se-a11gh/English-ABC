@@ -104,20 +104,26 @@ let btn_nav_close = document.querySelector(".btn_nav_close");
 let bl_left1 = document.querySelector(".block_aside_menu");
 let bl_left2 = document.querySelector(".bl_aside_soc");
 let aside = document.querySelectorAll(".menu_head");
+let element_body = document.querySelector('body');
+
 
 aside.forEach((e)=>{
     e.addEventListener("click", ()=>{
         bl_left1.style.left = "0%";
         bl_left2.style.left = "100%";
         aside_menu.style.left = "0%";
+        element_body.classList.toggle('page_lock');
     });
 });
 btn_nav_close.addEventListener("click", ()=>{
     bl_left1.style.left = "-20%";
     bl_left2.style.left = "-39%";
     aside_menu.style.left = "-100%";
-
+    element_body.classList.toggle('page_lock');
 });
+
+
+
 
 
 

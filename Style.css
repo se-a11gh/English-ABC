@@ -38,7 +38,9 @@ body::-webkit-scrollbar-thumb {
     background-color: rgb(71, 70, 70);
     border-radius: 3px;
 }
-
+body.page_lock{
+    overflow:hidden    
+}
 
 
 .btnEng{ /*-- Шаблон кнопки --*/
@@ -83,7 +85,7 @@ h2, h3, h4, h5, h6{  /*-- Разделы --*/
     height: 30px;
     cursor: pointer;
 }
-span[name="r"]{
+.color_r{
     font-weight: bold;
     color: var(--colr_R);
 }
@@ -241,7 +243,7 @@ span[name="r"]{
 .btnClose_popUP_signIN{
     margin-left: 80px;
 }
-span[name="inroom"]{
+.inroom{
     font-size: 25px;
     font-weight: bold;
     color: var(--colr_Y);
@@ -708,12 +710,12 @@ h3{
     margin-bottom: 10px;
 
 }
-p[name="old_price"]{
+p.old_price{
     font-size: 24px;
     text-decoration: line-through;
     color: #20383f;
 }
-p[name="new_price"]{
+p.new_price{
     color: var(--colr_R);
 }
 
@@ -875,7 +877,7 @@ p[name="new_price"]{
 }
 .l_1, .l_2, .l_3 {
 background-image: url("media/tetr3.jpg");
-background-size: 130% auto;
+background-size: cover;
 background-repeat: no-repeat;
 border-radius: 5px;
 }
